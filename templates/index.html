@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phân loại văn bản</title>
+    <link rel="stylesheet" href="../static/style/main.css">
+</head>
+<body>
+    <h1>Ứng dụng phân loại văn bản dùng học máy</h1>
+    <form action="/predict" method="post">
+        <div>
+            <label for="content">Nhập văn bản:</label><br>
+            <textarea type="text" id="content" name="content" rows="10" cols="30"></textarea><br>
+        </div>
+        <button type="submit">Phân loại</button>
+    </form>
+    <p>{{ error }}</p>
+
+    {% if prediction %}
+        <h2>Kết quả phân loại: {{ prediction }}</h2>
+        <p>Độ chính xác của mô hình: 94.75%</p>
+    {% endif %}
+</body>
+</html>

@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 90vh;
+    background-image: url("https://wallpapercrafter.com/desktop/46306-black-3d-abstract-cube-hd-4k-simple-background.jpg");
+    background-size: cover; /* Đảm bảo hình nền bao phủ toàn bộ màn hình */
+    background-repeat: no-repeat; /* Không lặp lại hình nền */
+    background-position: center center; /* Căn giữa hình nền */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ffffff;
+    margin-top: 50px;
+    
+}
+
+form {
+    margin-bottom: 20px;
+    margin-top: -50px;
+}
+
+label {
+    
+    font-weight: bold;
+    margin-left: 300px;
+    margin-right: 50px;
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+#content {
+    height: 180px; /* Đặt độ cao */
+    width: 600px;   /* Đặt chiều rộng */
+    padding: 10px; /* Đặt khoảng cách giữa văn bản và biên của textarea */
+    box-sizing: border-box; /* Đảm bảo padding được tính vào chiều rộng và chiều cao */
+    font-size: 16px; /* Đặt cỡ chữ */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    color: red;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+ form div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+ }
+
+ p {
+    color: aliceblue;
+ }
